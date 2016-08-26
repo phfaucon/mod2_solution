@@ -1,3 +1,26 @@
+/* Very Streamlined Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    width: 31.73%;
+    float: left;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-6 {
+    float: left;
+    width: 48.4%;
+  }
+  .col-md-12 {
+    float: left;
+    width: 98.4%;
+  }
+}
+
 /********** Base styles **********/
 * {
   box-sizing: border-box;
@@ -38,26 +61,4 @@ p {
 }
 #Sushi {
 	background-color: #FFFF80;
-}
-/* Very Streamlined Responsive Framework. */
-.row {
-  width: 100%;
-}
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-4 {
-    width: 31%;
-    float: left;
-  }
-}
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-6 {
-    float: left;
-    width: 48%;
-  }
-  .col-md-12 {
-    float: left;
-    width: 97.6%;
-  }
 }
